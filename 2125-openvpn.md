@@ -46,7 +46,7 @@ By default OpenVPN works on port 1194 UDP but Open VPN is highly capable of tran
 
 Lets get started by installing OpenVPN and establish a VPN connection between two computers.
 
-We use CentOS\(192.168.10.147\) computer az a server and ubuntu\(192.168.10.129\) machine as a client, also for keeping simple we will use pre-shared keys instead of generating certificates:
+We use CentOS\(192.168.10.147\) computer as a server and ubuntu\(192.168.10.129\) machine as a client, also for keeping simple we will use pre-shared keys instead of generating certificates:
 
 ```text
 [root@centos7-1 ~]# yum search openvpn
